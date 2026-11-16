@@ -32,3 +32,10 @@ $ npm run build:mac
 # For Linux
 $ npm run build:linux
 ```
+
+### Detail Folder
+- /styles : Menyimpan file css global dan styling per halaman / komponen
+- /context : Menyimpan state yang akan digunakan untuk state yang dipakai bersama antar komponen
+- /data : Menyimpan data dummy
+- /pages : Menyimpan komponen halaman utama aplikasi
+- /assets : Menyimpan gambar 
