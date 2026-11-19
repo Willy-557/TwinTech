@@ -1,92 +1,89 @@
-{
-  "catatan": "Data dummy untuk belajar. Jangan dipakai di aplikasi sungguhan: sandi di sini masih teks biasa.",
-  "users": [
-    {
-      "id": 1,
-      "nama": "Admin",
-      "email": "admin@twintech.com",
-      "sandi": "admin12345",
-      "role": "admin",
-      "telepon": "",
-      "alamat": []
-    },
-    {
-      "id": 2,
-      "nama": "William",
-      "email": "william@email.com",
-      "sandi": "william123",
-      "role": "member",
-      "telepon": "",
-      "alamat": []
-    },
-    {
-      "id": 3,
-      "nama": "Aditya Rahman",
-      "email": "aditya@email.com",
-      "sandi": "aditya123",
-      "role": "member",
-      "telepon": "0812 3456 7890",
-      "alamat": [
-        {
-          "label": "Rumah",
-          "default": true,
-          "penerima": "Aditya Rahman",
-          "telepon": "0812 3456 7890",
-          "alamat": "Jl. Wijaya Kusuma No. 18, Kebayoran Baru, Jakarta Selatan"
-        },
-        {
-          "label": "Apartemen",
-          "default": false,
-          "penerima": "Aditya Rahman",
-          "telepon": "0812 3456 7890",
-          "alamat": "Apartemen Nusa Indah, Tower B No. 12, Jakarta Selatan"
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "nama": "Salsa Putri",
-      "email": "salsa@email.com",
-      "sandi": "salsa12345",
-      "role": "member",
-      "telepon": "",
-      "alamat": []
-    },
-    {
-      "id": 5,
-      "nama": "Bima Pratama",
-      "email": "bima@email.com",
-      "sandi": "bima12345",
-      "role": "member",
-      "telepon": "",
-      "alamat": []
-    },
-    {
-      "id": 6,
-      "nama": "Rina Maharani",
-      "email": "rina@email.com",
-      "sandi": "rina12345",
-      "role": "member",
-      "telepon": "",
-      "alamat": []
-    },
-    {
-      "id": 7,
-      "nama": "Dimas Saputra",
-      "email": "dimas@email.com",
-      "sandi": "dimas12345",
-      "role": "member",
-      "telepon": "",
-      "alamat": []
-    },
-    {
-      "id": 8,
-      "nama": "Nadia Kusuma",
-      "email": "nadia@email.com",
-      "sandi": "nadia12345",
-      "role": "member",
-      "telepon": "",
-      "alamat": []
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "nama": "Admin",
+    "email": "admin@twintech.com",
+    "sandi": "admin12345",
+    "role": "admin",
+    "telepon": "",
+    "alamat": []
+  },
+  {
+    "id": 2,
+    "nama": "William",
+    "email": "william@email.com",
+    "sandi": "william123",
+    "role": "member",
+    "telepon": "",
+    "alamat": []
+  },
+  {
+    "id": 3,
+    "nama": "Aditya Rahman",
+    "email": "aditya@email.com",
+    "sandi": "aditya123",
+    "role": "member",
+    "telepon": "0812 3456 7890",
+    "alamat": [
+      {
+        "label": "Rumah",
+        "default": true,
+        "penerima": "Aditya Rahman",
+        "telepon": "0812 3456 7890",
+        "alamat": "Jl. Wijaya Kusuma No. 18, Kebayoran Baru, Jakarta Selatan"
+      },
+      {
+        "label": "Apartemen",
+        "default": false,
+        "penerima": "Aditya Rahman",
+        "telepon": "0812 3456 7890",
+        "alamat": "Apartemen Nusa Indah, Tower B No. 12, Jakarta Selatan"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "nama": "Salsa Putri",
+    "email": "salsa@email.com",
+    "sandi": "salsa12345",
+    "role": "member",
+    "telepon": "",
+    "alamat": []
+  },
+  {
+    "id": 5,
+    "nama": "Bima Pratama",
+    "email": "bima@email.com",
+    "sandi": "bima12345",
+    "role": "member",
+    "telepon": "",
+    "alamat": []
+  },
+  {
+    "id": 6,
+    "nama": "Rina Maharani",
+    "email": "rina@email.com",
+    "sandi": "rina12345",
+    "role": "member",
+    "telepon": "",
+    "alamat": []
+  },
+  {
+    "id": 7,
+    "nama": "Dimas Saputra",
+    "email": "dimas@email.com",
+    "sandi": "dimas12345",
+    "role": "member",
+    "telepon": "",
+    "alamat": []
+  },
+  {
+    "id": 8,
+    "nama": "Nadia Kusuma",
+    "email": "nadia@email.com",
+    "sandi": "nadia12345",
+    "role": "member",
+    "telepon": "",
+    "alamat": []
+  }
+]
