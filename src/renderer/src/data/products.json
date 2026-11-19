@@ -1,0 +1,610 @@
+{
+  "sumber": "Google Sheets 1xgBWyoeCBmAiAHhUYaLBaWzko3muXCuL2ckN1YwitfM (Sheet1)",
+  "catatan_harga": "Harga dalam Rupiah (angka saja). Harga Shopee tidak dapat diakses; harga yang terisi berasal dari Tokopedia. null = harga belum ditemukan.",
+  "produk": [
+    {
+      "kode": "60116",
+      "nama": "UGREEN CABLE USB A TO TYPE-C 1M US287 BLACK",
+      "kategori": "Kabel Data & Charger",
+      "harga": 35000,
+      "fitur": [
+        {
+          "judul": "Panjang",
+          "nilai": "1M"
+        },
+        {
+          "judul": "Kecepatan Transfer",
+          "nilai": "Up to 480 Mbps"
+        },
+        {
+          "judul": "Charging",
+          "nilai": "Fast Charging 18w"
+        }
+      ],
+      "varian": [
+        {
+          "kode": "60116",
+          "warna": "Black",
+          "stok": 4
+        }
+      ],
+      "images": "Assets/Produk/Ugreen/60116.jpeg",
+      "deskripsi": "UGREEN CABLE USB A TO TYPE-C 1M US287 BLACK / 60116 adalah kabel original untuk kebutuhan harian, kerja, perjalanan, dan perlengkapan digital."
+    },
+    {
+      "kode": "15271",
+      "nama": "UGREEN CABLE TYPE-C TO TYPE-C NYLON 100W 1M US557",
+      "kategori": "Kabel Data & Charger",
+      "harga": 85000,
+      "fitur": [
+        {
+          "judul": "Panjang",
+          "nilai": "1M"
+        },
+        {
+          "judul": "Kecepatan Transfer",
+          "nilai": "Up to 480 Mbps"
+        },
+        {
+          "judul": "Charging",
+          "nilai": "Fast Charging 100w"
+        }
+      ],
+      "varian": [
+        {
+          "kode": "15271",
+          "warna": "Blue",
+          "stok": 1
+        }
+      ],
+      "images": "Assets/Produk/Ugreen/15271.jpeg",
+      "deskripsi": "UGREEN CABLE TYPE-C TO TYPE-C NYLON 100W 1 METER US557 / 15271 adalah kabel original untuk kebutuhan harian, kerja, perjalanan, dan perlengkapan digital."
+    },
+    {
+      "kode": "50150, 25057",
+      "nama": "UGREEN CABLE TYPE-C TO TYPE-C NYLON 60W 1M",
+      "kategori": "Kabel Data & Charger",
+      "harga": 59000,
+      "fitur": [
+        {
+          "judul": "Panjang",
+          "nilai": "1M"
+        },
+        {
+          "judul": "Kecepatan Transfer",
+          "nilai": "Up to 480 Mbps"
+        },
+        {
+          "judul": "Charging",
+          "nilai": "Fast Charging 60w"
+        }
+      ],
+      "varian": [
+        {
+          "kode": "50150",
+          "warna": "Black",
+          "stok": 3
+        },
+        {
+          "kode": "25057",
+          "warna": "White",
+          "stok": 2
+        }
+      ],
+      "images": "Assets/Produk/Ugreen/50150.jpeg, Assets/Produk/Ugreen/25057.jpeg",
+      "deskripsi": "UGREEN CABLE TYPE-C TO TYPE-C NYLON 60W 1M 50150 / 25057 adalah kabel original untuk kebutuhan harian, kerja, perjalanan, dan perlengkapan digital."
+    },
+    {
+      "kode": "RC-124A",
+      "nama": "REMAX CABLE TYPE-C JANY ALUMINUM 1M",
+      "kategori": "Kabel Data & Charger",
+      "harga": 44100,
+      "fitur": [
+        {
+          "judul": "Panjang",
+          "nilai": "1M"
+        },
+        {
+          "judul": "Kecepatan Transfer",
+          "nilai": "Up to 480 Mbps"
+        },
+        {
+          "judul": "Charging",
+          "nilai": "Fast Charging 12w"
+        }
+      ],
+      "varian": [
+        {
+          "kode": "RC-124A",
+          "warna": "Black",
+          "stok": 1
+        },
+        {
+          "kode": "RC-124A",
+          "warna": "Silver",
+          "stok": 4
+        }
+      ],
+      "images": "Assets/Produk/Remax/RC-124A-Black.jpeg, Assets/Produk/Remax/RC-124A-Silver.jpeg",
+      "deskripsi": "REMAX CABLE TYPE-C JANY ALUMINUM 1M RC-12.4A adalah kabel original untuk kebutuhan harian, kerja, perjalanan, dan perlengkapan digital."
+    },
+    {
+      "kode": "45000",
+      "nama": "UGREEN HUB TYPE-C 6IN1",
+      "kategori": "USB Hub & Adapter",
+      "harga": 420000,
+      "fitur": [
+        {
+          "judul": "Resolusi",
+          "nilai": "Up to 4K@60Hz"
+        },
+        {
+          "judul": "Kecepatan Transfer",
+          "nilai": "Up to 5 Gbps"
+        },
+        {
+          "judul": "Charging",
+          "nilai": "PD 100W"
+        }
+      ],
+      "varian": [
+        {
+          "kode": "45000",
+          "warna": "Space Gray",
+          "stok": 2
+        }
+      ],
+      "images": "Assets/Produk/Ugreen/45000.jpeg",
+      "deskripsi": "UGREEN 45000 (Model CM512) dirancang khusus untuk memenuhi kebutuhan ekspansi perangkat modern dengan satu koneksi USB-C terintegrasi. Hadir dengan bodi aluminium kokoh yang membantu pembuangan panas secara optimal, hub ini memadukan port visual HDMI 4K @60Hz, jaringan kabel LAN RJ45 Gigabit, 3 port data berkecepatan 10Gbps (1x USB-C + 2x USB-A), serta port input USB-C Power Delivery hingga 100W untuk menyuplai daya laptop Anda secara simultan."
+    },
+    {
+      "kode": "50922",
+      "nama": "UGREEN ADAPTER ETHERNET USB 3.0 TO LAN RJ45 1000MBPS",
+      "kategori": "USB Hub & Adapter",
+      "harga": 169950,
+      "fitur": [
+        {
+          "judul": "Konektor",
+          "nilai": "USB 3.0 to RJ45"
+        },
+        {
+          "judul": "Kecepatan Internet",
+          "nilai": "Up to 1000 Mbps"
+        },
+        {
+          "judul": "Material",
+          "nilai": "Aluminum Alloy"
+        }
+      ],
+      "varian": [
+        {
+          "kode": "50922",
+          "warna": "Gray",
+          "stok": 2
+        }
+      ],
+      "images": "Assets/Produk/Ugreen/50922.jpeg",
+      "deskripsi": "UGREEN ADAPTER ETHERNET USB 3 TO LAN RJ45 1000MBPS 50922 GRAY adalah charger/adaptor original untuk kebutuhan harian, kerja, perjalanan, dan perlengkapan digital."
+    },
+    {
+      "kode": "16070",
+      "nama": "UGREEN CABLE TYPE-C TO TYPE-C 240W LIQUID SILICONE BRAIDED 1M",
+      "kategori": "Kabel Data & Charger",
+      "harga": 110000,
+      "fitur": [
+        {
+          "judul": "Panjang",
+          "nilai": "1M"
+        },
+        {
+          "judul": "Kecepatan Transfer",
+          "nilai": "Up to 480 Mbps"
+        },
+        {
+          "judul": "Charging",
+          "nilai": "Fast Charging 240w"
+        }
+      ],
+      "varian": [
+        {
+          "kode": "16070",
+          "warna": "White",
+          "stok": 2
+        }
+      ],
+      "images": "Assets/Produk/Ugreen/16070.png",
+      "deskripsi": "UGREEN 16070 Kabel USB Type-C to Type-C 240W 1 Meter White dengan material Liquid Silicone Braided premium yang lembut, lentur, kuat, dan tidak mudah kusut. Mendukung fast charging USB Power Delivery 3.1 hingga 240W serta transfer data hingga 480Mbps. Dilengkapi chip E-Marker untuk mendukung pengisian daya tinggi."
+    },
+    {
+      "kode": "60826",
+      "nama": "UGREEN CABLE USB-A TO TYPE-C PVC 3M",
+      "kategori": "Kabel Data & Charger",
+      "harga": 69000,
+      "fitur": [
+        {
+          "judul": "Panjang",
+          "nilai": "3M"
+        },
+        {
+          "judul": "Kecepatan Transfer",
+          "nilai": "Up to 480 Mbps"
+        },
+        {
+          "judul": "Charging",
+          "nilai": "Fast Charging 18w"
+        }
+      ],
+      "varian": [
+        {
+          "kode": "60826",
+          "warna": "Black",
+          "stok": 1
+        }
+      ],
+      "images": "Assets/Produk/Ugreen/60826.jpeg",
+      "deskripsi": "UGREEN 60826 Kabel Data USB-A to Type-C 3 Meter Black dengan material PVC berkualitas, lentur, kuat, dan tahan lama. Mendukung fast charging hingga 3A serta transfer data hingga 480Mbps."
+    },
+    {
+      "kode": "16403",
+      "nama": "UGREEN CABLE TYPE-C TO TYPE-C 60W LIQUID SILICONE BRAIDED 1M",
+      "kategori": "Kabel Data & Charger",
+      "harga": 89000,
+      "fitur": [
+        {
+          "judul": "Panjang",
+          "nilai": "1M"
+        },
+        {
+          "judul": "Kecepatan Transfer",
+          "nilai": "Up to 480 Mbps"
+        },
+        {
+          "judul": "Charging",
+          "nilai": "Fast Charging 60w"
+        }
+      ],
+      "varian": [
+        {
+          "kode": "16403",
+          "warna": "Blue",
+          "stok": 2
+        }
+      ],
+      "images": "Assets/Produk/Ugreen/16403.png",
+      "deskripsi": "UGREEN 16403 Kabel USB Type-C to Type-C 60W 1 Meter Blue dengan material Liquid Silicone Braided premium yang lembut, lentur, kuat, dan tidak mudah kusut. Mendukung fast charging Power Delivery hingga 60W (20V/3A) serta transfer data hingga 480Mbps. Desain biru elegan, nyaman digunakan sehari-hari."
+    },
+    {
+      "kode": "60114",
+      "nama": "UGREEN CABLE USB-A TO TYPE-C PVC 25CM",
+      "kategori": "Kabel Data & Charger",
+      "harga": 29000,
+      "fitur": [
+        {
+          "judul": "Panjang",
+          "nilai": "1M"
+        },
+        {
+          "judul": "Kecepatan Transfer",
+          "nilai": "Up to 480 Mbps"
+        },
+        {
+          "judul": "Charging",
+          "nilai": "Fast Charging 18w"
+        }
+      ],
+      "varian": [
+        {
+          "kode": "60114",
+          "warna": "Black",
+          "stok": 4
+        }
+      ],
+      "images": "Assets/Produk/Ugreen/60114.jpeg",
+      "deskripsi": "UGREEN CABLE USB-A TO TYPE-C PVC 25CM 60114 BLACK / 60114 adalah kabel original untuk kebutuhan harian, kerja, perjalanan, dan perlengkapan digital."
+    },
+    {
+      "kode": "35501",
+      "nama": "UGREEN CABLE UNO TYPE-C TO TYPE-C NYLON 100W L509",
+      "kategori": "Kabel Data & Charger",
+      "harga": 119000,
+      "fitur": [
+        {
+          "judul": "Panjang",
+          "nilai": "1M"
+        },
+        {
+          "judul": "Kecepatan Transfer",
+          "nilai": "Up to 480 Mbps"
+        },
+        {
+          "judul": "Charging",
+          "nilai": "Fast Charging 100w"
+        }
+      ],
+      "varian": [
+        {
+          "kode": "35501",
+          "warna": "Black",
+          "stok": 2
+        }
+      ],
+      "images": "Assets/Produk/Ugreen/35501.jpeg",
+      "deskripsi": "UGREEN CABLE UNO TYPE-C TO TYPE-C NYLON 100W L509 BLACK / 35501 adalah kabel original untuk kebutuhan harian, kerja, perjalanan, dan perlengkapan digital."
+    },
+    {
+      "kode": "90550, 90671, 90686",
+      "nama": "UGREEN MOUSE WIRELESS 24G MU105",
+      "kategori": "Mouse",
+      "harga": 119000,
+      "fitur": [
+        {
+          "judul": "Koneksi",
+          "nilai": "Wireless 2.4GHz (USB Receiver)"
+        },
+        {
+          "judul": "DPI",
+          "nilai": "Up to 2400 DPI"
+        },
+        {
+          "judul": "Fitur",
+          "nilai": "Silent Click"
+        }
+      ],
+      "varian": [
+        {
+          "kode": "90550",
+          "warna": "Midnight Blue",
+          "stok": 2
+        },
+        {
+          "kode": "90671",
+          "warna": "Dusty Blue",
+          "stok": 2
+        },
+        {
+          "kode": "90686",
+          "warna": "Cherry Pink",
+          "stok": 2
+        }
+      ],
+      "images": "Assets/Produk/Ugreen/90550.jpeg, Assets/Produk/Ugreen/90671.jpeg, Assets/Produk/Ugreen/90686.jpeg",
+      "deskripsi": "UGREEN MOUSE WIRELESS 24G MU105 / 90550 / 90671 / 90686 adalah mouse original untuk kebutuhan harian, kerja, perjalanan, dan perlengkapan digital."
+    },
+    {
+      "kode": "70429",
+      "nama": "UGREEN CABLE TYPE-C TO TYPE-C NYLON 100W 2M",
+      "kategori": "Kabel Data & Charger",
+      "harga": 112000,
+      "fitur": [
+        {
+          "judul": "Panjang",
+          "nilai": "2M"
+        },
+        {
+          "judul": "Kecepatan Transfer",
+          "nilai": "Up to 480 Mbps"
+        },
+        {
+          "judul": "Charging",
+          "nilai": "Fast Charging 100w"
+        }
+      ],
+      "varian": [
+        {
+          "kode": "70429",
+          "warna": "Black",
+          "stok": 2
+        }
+      ],
+      "images": "Assets/Produk/Ugreen/70429.png",
+      "deskripsi": "UGREEN 70429 Kabel Data USB Type-C to Type-C 100W 2 Meter Black dengan material Nylon Braided premium yang kuat, lentur, dan tahan lama. Mendukung fast charging Power Delivery hingga 100W (20V/5A) serta transfer data hingga 480Mbps. Dilengkapi chip E-Marker untuk pengisian daya stabil."
+    },
+    {
+      "kode": "70427",
+      "nama": "UGREEN CABLE TYPE-C TO TYPE-C NYLON 100W 1M",
+      "kategori": "Kabel Data & Charger",
+      "harga": 95000,
+      "fitur": [
+        {
+          "judul": "Panjang",
+          "nilai": "1M"
+        },
+        {
+          "judul": "Kecepatan Transfer",
+          "nilai": "Up to 480 Mbps"
+        },
+        {
+          "judul": "Charging",
+          "nilai": "Fast Charging 100w"
+        }
+      ],
+      "varian": [
+        {
+          "kode": "70427",
+          "warna": "Black",
+          "stok": 2
+        }
+      ],
+      "images": "Assets/Produk/Ugreen/70427.jpeg",
+      "deskripsi": "UGREEN CABLE TYPE-C TO TYPE-C NYLON 100W 1M US316 BLACK / 70427 adalah kabel original untuk kebutuhan harian, kerja, perjalanan, dan perlengkapan digital."
+    },
+    {
+      "kode": "25067",
+      "nama": "UGREEN CABLE TYPE-C TO TYPE-C NYLON 100W 1 METER",
+      "kategori": "Kabel Data & Charger",
+      "harga": 85610,
+      "fitur": [
+        {
+          "judul": "Panjang",
+          "nilai": "1M"
+        },
+        {
+          "judul": "Kecepatan Transfer",
+          "nilai": "Up to 480 Mbps"
+        },
+        {
+          "judul": "Charging",
+          "nilai": "Fast Charging 100w"
+        }
+      ],
+      "varian": [
+        {
+          "kode": "25067",
+          "warna": "White",
+          "stok": 2
+        }
+      ],
+      "images": "Assets/Produk/Ugreen/25067.jpeg",
+      "deskripsi": "UGREEN CABLE TYPE-C TO TYPE-C NYLON 100W 1 METER US316 WHITE 25067 adalah kabel original untuk kebutuhan harian, kerja, perjalanan, dan perlengkapan digital."
+    },
+    {
+      "kode": "50123",
+      "nama": "UGREEN CABLE GAMING TYPE-C TO TYPE-C NYLON 60W 1 METER",
+      "kategori": "Kabel Data & Charger",
+      "harga": 65000,
+      "fitur": [
+        {
+          "judul": "Panjang",
+          "nilai": "1M"
+        },
+        {
+          "judul": "Kecepatan Transfer",
+          "nilai": "Up to 480 Mbps"
+        },
+        {
+          "judul": "Charging",
+          "nilai": "Fast Charging 60w"
+        }
+      ],
+      "varian": [
+        {
+          "kode": "50123",
+          "warna": "Black",
+          "stok": 2
+        }
+      ],
+      "images": "Assets/Produk/Ugreen/50123.jpeg",
+      "deskripsi": "UGREEN CABLE GAMING TYPE-C TO TYPE-C NYLON 60W 1 METER US255 BLACK 50123 adalah kabel original untuk kebutuhan harian, kerja, perjalanan, dan perlengkapan digital"
+    },
+    {
+      "kode": "RM-760A",
+      "nama": "REMAX EARPHONE TYPE-C DIGITAL WITH ANC METAL",
+      "kategori": "Kabel Data & Charger",
+      "harga": 225000,
+      "fitur": [
+        {
+          "judul": "Konektor",
+          "nilai": "USB Type-C"
+        },
+        {
+          "judul": "Panjang",
+          "nilai": "1.2M"
+        },
+        {
+          "judul": "Fitur Audio",
+          "nilai": "Active Noise Cancelling (ANC) + Mic"
+        }
+      ],
+      "varian": [
+        {
+          "kode": "RM-760A",
+          "warna": "Tarnish",
+          "stok": 2
+        }
+      ],
+      "images": "Assets/Produk/Remax/RM-706A.jpeg",
+      "deskripsi": "REMAX EARPHONE TYPE-C METAL RM-760A adalah earphone original untuk kebutuhan harian, kerja, perjalanan, dan perlengkapan digital."
+    },
+    {
+      "kode": "CA05-WH",
+      "nama": "REMAX CHARGER DUAL PORT A+C GAN 45W WHITE",
+      "kategori": "Charger",
+      "harga": 135000,
+      "fitur": [
+        {
+          "judul": "Port",
+          "nilai": "Dual Port (1x USB-C + 1x USB-A)"
+        },
+        {
+          "judul": "Output",
+          "nilai": "Max 45W (GaN)"
+        },
+        {
+          "judul": "Keamanan",
+          "nilai": "Fireproof PC + Multi-Protection"
+        }
+      ],
+      "varian": [
+        {
+          "kode": "CA05-WH",
+          "warna": "White",
+          "stok": 1
+        }
+      ],
+      "images": "Assets/Produk/Remax/CA05-WH.jpeg",
+      "deskripsi": "REMAX CHARGER DUAL PORT A+C GAN 45W WHITE / CA05-WH adalah charger/adaptor original untuk kebutuhan harian, kerja, perjalanan, dan perlengkapan digital."
+    },
+    {
+      "kode": "U02-AC30Wc-WH",
+      "nama": "REMAX CHARGER WITH CABLE TYPE-C DUAL PORT A+C 30W GAN",
+      "kategori": "Charger",
+      "harga": 180000,
+      "fitur": [
+        {
+          "judul": "Port",
+          "nilai": "Dual Port (A+C) + Built-in Kabel Type-C 1M"
+        },
+        {
+          "judul": "Charging",
+          "nilai": "GaN Fast Charging 30W"
+        },
+        {
+          "judul": "Fitur",
+          "nilai": "Kabel Tarik (Retractable)"
+        }
+      ],
+      "varian": [
+        {
+          "kode": "U02-AC30Wc-WH",
+          "warna": "White",
+          "stok": 1
+        }
+      ],
+      "images": "Assets/Produk/Remax/U02-AC30Wc-WH.jpeg",
+      "deskripsi": "REMAX CHARGER WITH CABLE TYPE-C DUAL PORT A+C 30W GAN U02-AC30Wc-WH WHITE adalah charger/adaptor original untuk kebutuhan harian, kerja, perjalanan, dan perlengkapan digital."
+    },
+    {
+      "kode": "CA10-WH",
+      "nama": "REMAX CHARGER TYPE-C GAN FAST CHARGER HUIYING 40W",
+      "kategori": "Charger",
+      "harga": 120000,
+      "fitur": [
+        {
+          "judul": "Port",
+          "nilai": "Single Type-C"
+        },
+        {
+          "judul": "Charging",
+          "nilai": "GaN Fast Charging 40W"
+        },
+        {
+          "judul": "Protokol",
+          "nilai": "PD 3.0, PPS, QC 4.0"
+        },
+        {
+          "judul": "Material",
+          "nilai": "Fireproof PC"
+        }
+      ],
+      "varian": [
+        {
+          "kode": "CA10-WH",
+          "warna": "White",
+          "stok": 1
+        }
+      ],
+      "images": "Assets/Produk/Remax/CA10-WH.jpeg",
+      "deskripsi": "REMAX CHARGER TYPE-C GAN FAST CHARGER HUIYING 40W WHITE / CA10-WH adalah charger/adaptor original untuk kebutuhan harian, kerja, perjalanan, dan perlengkapan digital."
+    }
+  ]
+}
