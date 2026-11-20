@@ -71,7 +71,8 @@ export default function AuthContext({children}){
         tambahAlamat,
         ubahStatusPesanan,
         hapusBarang,
-        hapusPesanan
+        hapusPesanan,
+        checkout
     }
 
     return <AuthContext.Provider value={auth}>
