@@ -64,6 +64,10 @@ app.whenReady().then(() => {
     return JSON.parse(fs.readFileSync('./src/renderer/src/data/products.json'))
   })
 
+  ipcMain.handle('load_users', function() {
+    return JSON.parse(fs.readFileSync('./src/renderer/src/data/users.json'))
+  })
+
   createWindow()
 
   app.on('activate', function () {

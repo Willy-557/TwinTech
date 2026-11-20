@@ -4,7 +4,8 @@ import { electronAPI } from '@electron-toolkit/preload'
 // Custom APIs for renderer
 const api = {
   save_products :  (data) => ipcRenderer.invoke('save_products', data),
-  load_products :  () => ipcRenderer.invoke('load_products')
+  load_products :  () => ipcRenderer.invoke('load_products'),
+  load_users :  () => ipcRenderer.invoke('load_users')
 }
 
 // Use `contextBridge` APIs to expose Electron APIs to
