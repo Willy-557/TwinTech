@@ -41,6 +41,31 @@ export default function AuthContext({children}){
         setOrders(temp)
     }
 
+    function checkout(userId, metodeBayar, alamatKirim, barang) {
+        const idBaru = orders.length == 0 ? 1 : orders[orders.length - 1].id + 1
+        const nomorBaru = "SRK-" + String(idBaru).padStart(4, '0')
+        let subtotal = 0
+        for(let i = 0; i < barang.length; i++) {
+            subtotal += Number(barang[i].jumlah) * Number(barang[i].harga)
+        }
+        const ongkir = 10000
+        const total = Number(subtotal) + ongkir
+        const pesananBaru = {
+            "id": idBaru,
+            "nomor": nomorBaru,
+            "userId": userId,
+            "tanggal": new Date().toLocaleDateString('en-CA'),
+            "status": "Ditinjau",
+            "metodePembayaran": metodeBayar,
+            "items": barang,
+            "subtotal": subtotal,
+            "ongkir": ongkir,
+            "total": total,
+            "alamatPengiriman": alamatKirim
+        }
+        setOrders([...orders, pesananBaru])
+    }
+
     const auth = {
         editBarang, 
         tambahAlamat,
