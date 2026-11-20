@@ -4,6 +4,7 @@ export const AuthContext = createContext("")
 
 export default function AuthContext({children}){
     const [products, setProducts] = useState([])
+    const [orders, setOrders] = useState([])
     const [users, setUsers] = useState([])
     const [userNow, setUserNow] = useState(null)
 
@@ -25,9 +26,15 @@ export default function AuthContext({children}){
         setUsers(temp)
     }
 
+    function ubahStatusPesanan(idPesanan, statusPesanan) {
+        const temp = orders.map((e) => e.id == idPesanan ? {...e, status: statusPesanan} : e)
+        setOrders(temp)
+    }
+
     const auth = {
         editBarang, 
-        tambahAlamat
+        tambahAlamat,
+        ubahStatusPesanan
     }
 
     return <AuthContext.Provider value={auth}>
