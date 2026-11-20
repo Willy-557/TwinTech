@@ -4,6 +4,7 @@ export const AuthContext = createContext("")
 
 export default function AuthContext({children}){
     const [products, setProducts] = useState([])
+    const [cart, setCart] = useState([])
     const [orders, setOrders] = useState([])
     const [users, setUsers] = useState([])
     const [userNow, setUserNow] = useState(null)
@@ -64,6 +65,19 @@ export default function AuthContext({children}){
             "alamatPengiriman": alamatKirim
         }
         setOrders([...orders, pesananBaru])
+    }
+
+    function addToCart(kode, jumlah) {
+        const cariBarang = products.find((e) => e.kode == kode)
+        const barangAkanDitambahkan = {
+            "kode": kode,
+            "nama": cariBarang.nama,
+            "warna": cariBarang.kode.warna,
+            "jumlah": jumlah,
+            "harga": cariBarang.harga,
+            "gambar": cariBarang.images
+        }
+        setCart([...cart, barangAkanDitambahkan])
     }
 
     const auth = {
