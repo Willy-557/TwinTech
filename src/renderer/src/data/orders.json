@@ -1,0 +1,265 @@
+[
+  {
+    "id": 1,
+    "nomor": "SRK-0001",
+    "userId": 3,
+    "tanggal": "2025-06-28",
+    "status": "Ditinjau",
+    "metodePembayaran": "BCA Virtual Account",
+    "items": [
+      {
+        "kode": "45000",
+        "nama": "UGREEN HUB TYPE-C 6IN1",
+        "warna": "Space Gray",
+        "jumlah": 1,
+        "harga": 420000,
+        "gambar": "Assets/Produk/Ugreen/45000.jpeg"
+      },
+      {
+        "kode": "70427",
+        "nama": "UGREEN CABLE TYPE-C TO TYPE-C NYLON 100W 1M",
+        "warna": "Black",
+        "jumlah": 2,
+        "harga": 95000,
+        "gambar": "Assets/Produk/Ugreen/70427.jpeg"
+      },
+      {
+        "kode": "CA05-WH",
+        "nama": "REMAX CHARGER DUAL PORT A+C GAN 45W WHITE",
+        "warna": "White",
+        "jumlah": 1,
+        "harga": 135000,
+        "gambar": "Assets/Produk/Remax/CA05-WH.jpeg"
+      },
+      {
+        "kode": "90550",
+        "nama": "UGREEN MOUSE WIRELESS 24G MU105",
+        "warna": "Midnight Blue",
+        "jumlah": 1,
+        "harga": 119000,
+        "gambar": "Assets/Produk/Ugreen/90550.jpeg"
+      }
+    ],
+    "subtotal": 864000,
+    "ongkir": 18000,
+    "total": 882000,
+    "alamatPengiriman": {
+      "label": "Rumah",
+      "default": true,
+      "penerima": "Aditya Rahman",
+      "telepon": "0812 3456 7890",
+      "alamat": "Jl. Wijaya Kusuma No. 18, Kebayoran Baru, Jakarta Selatan"
+    }
+  },
+  {
+    "id": 2,
+    "nomor": "SRK-0002",
+    "userId": 4,
+    "tanggal": "2025-06-27",
+    "status": "Diproses",
+    "metodePembayaran": "GoPay",
+    "items": [
+      {
+        "kode": "90671",
+        "nama": "UGREEN MOUSE WIRELESS 24G MU105",
+        "warna": "Dusty Blue",
+        "jumlah": 1,
+        "harga": 119000,
+        "gambar": "Assets/Produk/Ugreen/90671.jpeg"
+      },
+      {
+        "kode": "16070",
+        "nama": "UGREEN CABLE TYPE-C TO TYPE-C 240W LIQUID SILICONE BRAIDED 1M",
+        "warna": "White",
+        "jumlah": 1,
+        "harga": 110000,
+        "gambar": "Assets/Produk/Ugreen/16070.png"
+      }
+    ],
+    "subtotal": 229000,
+    "ongkir": 18000,
+    "total": 247000,
+    "alamatPengiriman": {
+      "label": "Rumah",
+      "penerima": "Salsa Putri",
+      "telepon": "0813 2200 4411",
+      "alamat": "Jl. Melati No. 7, Tebet, Jakarta Selatan"
+    }
+  },
+  {
+    "id": 3,
+    "nomor": "SRK-0003",
+    "userId": 5,
+    "tanggal": "2025-06-25",
+    "status": "Diproses",
+    "metodePembayaran": "Kartu Kredit / Debit",
+    "items": [
+      {
+        "kode": "45000",
+        "nama": "UGREEN HUB TYPE-C 6IN1",
+        "warna": "Space Gray",
+        "jumlah": 1,
+        "harga": 420000,
+        "gambar": "Assets/Produk/Ugreen/45000.jpeg"
+      }
+    ],
+    "subtotal": 420000,
+    "ongkir": 18000,
+    "total": 438000,
+    "alamatPengiriman": {
+      "label": "Rumah",
+      "penerima": "Bima Pratama",
+      "telepon": "0857 1122 3344",
+      "alamat": "Jl. Kenanga No. 21, Coblong, Bandung"
+    }
+  },
+  {
+    "id": 4,
+    "nomor": "SRK-0004",
+    "userId": 6,
+    "tanggal": "2025-06-21",
+    "status": "Dikirim",
+    "metodePembayaran": "BCA Virtual Account",
+    "items": [
+      {
+        "kode": "50922",
+        "nama": "UGREEN ADAPTER ETHERNET USB 3.0 TO LAN RJ45 1000MBPS",
+        "warna": "Gray",
+        "jumlah": 1,
+        "harga": 169950,
+        "gambar": "Assets/Produk/Ugreen/50922.jpeg"
+      },
+      {
+        "kode": "RM-760A",
+        "nama": "REMAX EARPHONE TYPE-C DIGITAL WITH ANC METAL",
+        "warna": "Tarnish",
+        "jumlah": 1,
+        "harga": 225000,
+        "gambar": "Assets/Produk/Remax/RM-706A.jpeg"
+      }
+    ],
+    "subtotal": 394950,
+    "ongkir": 18000,
+    "total": 412950,
+    "alamatPengiriman": {
+      "label": "Rumah",
+      "penerima": "Rina Maharani",
+      "telepon": "0821 5566 7788",
+      "alamat": "Jl. Pahlawan No. 45, Genteng, Surabaya"
+    }
+  },
+  {
+    "id": 5,
+    "nomor": "SRK-0005",
+    "userId": 7,
+    "tanggal": "2025-06-18",
+    "status": "Dikirim",
+    "metodePembayaran": "GoPay",
+    "items": [
+      {
+        "kode": "CA10-WH",
+        "nama": "REMAX CHARGER TYPE-C GAN FAST CHARGER HUIYING 40W",
+        "warna": "White",
+        "jumlah": 1,
+        "harga": 120000,
+        "gambar": "Assets/Produk/Remax/CA10-WH.jpeg"
+      },
+      {
+        "kode": "16403",
+        "nama": "UGREEN CABLE TYPE-C TO TYPE-C 60W LIQUID SILICONE BRAIDED 1M",
+        "warna": "Blue",
+        "jumlah": 2,
+        "harga": 89000,
+        "gambar": "Assets/Produk/Ugreen/16403.png"
+      },
+      {
+        "kode": "60826",
+        "nama": "UGREEN CABLE USB-A TO TYPE-C PVC 3M",
+        "warna": "Black",
+        "jumlah": 1,
+        "harga": 69000,
+        "gambar": "Assets/Produk/Ugreen/60826.jpeg"
+      }
+    ],
+    "subtotal": 367000,
+    "ongkir": 18000,
+    "total": 385000,
+    "alamatPengiriman": {
+      "label": "Kantor",
+      "penerima": "Dimas Saputra",
+      "telepon": "0878 9900 1122",
+      "alamat": "Jl. Diponegoro No. 3, Lowokwaru, Malang"
+    }
+  },
+  {
+    "id": 6,
+    "nomor": "SRK-0006",
+    "userId": 3,
+    "tanggal": "2025-06-01",
+    "status": "Selesai",
+    "metodePembayaran": "BCA Virtual Account",
+    "items": [
+      {
+        "kode": "35501",
+        "nama": "UGREEN CABLE UNO TYPE-C TO TYPE-C NYLON 100W L509",
+        "warna": "Black",
+        "jumlah": 1,
+        "harga": 119000,
+        "gambar": "Assets/Produk/Ugreen/35501.jpeg"
+      },
+      {
+        "kode": "U02-AC30Wc-WH",
+        "nama": "REMAX CHARGER WITH CABLE TYPE-C DUAL PORT A+C 30W GAN",
+        "warna": "White",
+        "jumlah": 1,
+        "harga": 180000,
+        "gambar": "Assets/Produk/Remax/U02-AC30Wc-WH.jpeg"
+      },
+      {
+        "kode": "50150",
+        "nama": "UGREEN CABLE TYPE-C TO TYPE-C NYLON 60W 1M",
+        "warna": "Black",
+        "jumlah": 2,
+        "harga": 59000,
+        "gambar": "Assets/Produk/Ugreen/50150.jpeg"
+      }
+    ],
+    "subtotal": 417000,
+    "ongkir": 18000,
+    "total": 435000,
+    "alamatPengiriman": {
+      "label": "Apartemen",
+      "default": false,
+      "penerima": "Aditya Rahman",
+      "telepon": "0812 3456 7890",
+      "alamat": "Apartemen Nusa Indah, Tower B No. 12, Jakarta Selatan"
+    }
+  },
+  {
+    "id": 7,
+    "nomor": "SRK-0007",
+    "userId": 8,
+    "tanggal": "2025-05-29",
+    "status": "Selesai",
+    "metodePembayaran": "GoPay",
+    "items": [
+      {
+        "kode": "70429",
+        "nama": "UGREEN CABLE TYPE-C TO TYPE-C NYLON 100W 2M",
+        "warna": "Black",
+        "jumlah": 1,
+        "harga": 112000,
+        "gambar": "Assets/Produk/Ugreen/70429.png"
+      }
+    ],
+    "subtotal": 112000,
+    "ongkir": 18000,
+    "total": 130000,
+    "alamatPengiriman": {
+      "label": "Rumah",
+      "penerima": "Nadia Kusuma",
+      "telepon": "0896 3344 5566",
+      "alamat": "Jl. Sudirman No. 12, Medan Petisah, Medan"
+    }
+  }
+]
