@@ -31,10 +31,16 @@ export default function AuthContext({children}){
         setOrders(temp)
     }
 
+    function hapusBarang(idBarang) {
+        const temp = products.filter((e) => e.id != idBarang)
+        setProducts(temp)
+    }
+
     const auth = {
         editBarang, 
         tambahAlamat,
-        ubahStatusPesanan
+        ubahStatusPesanan,
+        hapusBarang
     }
 
     return <AuthContext.Provider value={auth}>
