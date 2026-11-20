@@ -3,6 +3,8 @@ import { join } from 'path'
 import { electronApp, optimizer, is } from '@electron-toolkit/utils'
 import icon from '../../resources/icon.png?asset'
 
+import fs from 'fs'
+
 function createWindow() {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
@@ -53,6 +55,14 @@ app.whenReady().then(() => {
 
   // IPC test
   ipcMain.on('ping', () => console.log('pong'))
+
+  ipcMain.handle('save_products', function(event, data) {
+    fs.writeFileSync('./src/renderer/src/data/products.json', JSON.stringify(data, null, 2))
+  })
+
+  ipcMain.handle('load_products', function() {
+    return JSON.parse(fs.readFileSync('./src/renderer/src/data/products.json'))
+  })
 
   createWindow()
 
