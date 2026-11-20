@@ -1,6 +1,8 @@
-import { useState } from "react"
+import { createContext, useState } from "react"
 
-export default function AuthContext(){
+export const AuthContext = createContext("")
+
+export default function AuthContext({children}){
     const [products, setProducts] = useState([])
     const [users, setUsers] = useState([])
     const [userNow, setUserNow] = useState(null)
@@ -11,7 +13,24 @@ export default function AuthContext(){
         
     }   
 
-    return (<>
-        
-    </>)
+    function tambahAlamat(idUser, labelAlamat, namaPenerima, noTelp, detailAlamat) {
+        const alamatBaru = {
+            "label": labelAlamat,
+            "default": false,
+            "penerima": namaPenerima,
+            "telepon": noTelp,
+            "alamat": detailAlamat
+        }
+        const temp = users.map((e) => e.id === idUser ? {...e, alamat: [...e.alamat, alamatBaru]} : e)
+        setUsers(temp)
+    }
+
+    const auth = {
+        editBarang, 
+        tambahAlamat
+    }
+
+    return <AuthContext.Provider value={auth}>
+            {children}
+        </AuthContext.Provider>
 }
