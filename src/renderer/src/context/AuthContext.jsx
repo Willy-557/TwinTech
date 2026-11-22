@@ -69,10 +69,15 @@ export default function AuthContext({children}){
 
     function addToCart(kode, jumlah) {
         const cariBarang = products.find((e) => e.kode == kode)
+        if (jumlah > cariBarang.varian[0].stok) {
+            alert("Stok tidak cukup")
+            return
+        }
+        
         const barangAkanDitambahkan = {
             "kode": kode,
             "nama": cariBarang.nama,
-            "warna": cariBarang.kode.warna,
+            "warna": cariBarang.varian[0].warna,
             "jumlah": jumlah,
             "harga": cariBarang.harga,
             "gambar": cariBarang.images
@@ -88,6 +93,7 @@ export default function AuthContext({children}){
         hapusPesanan,
         checkout
     }
+    
 
     return <AuthContext.Provider value={auth}>
             {children}

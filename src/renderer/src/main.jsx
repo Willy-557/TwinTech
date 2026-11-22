@@ -1,9 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router'
+
 import App from './App'
 import LoginPage from './pages/auth/LoginPage'
-import RegisterPage from './pages/auth/RegisterPagePage'
+import RegisterPage from './pages/auth/RegisterPage'
 import ManageOrdersPage from './pages/admin/ManageOrdersPage'
 import ManageProductsPage from './pages/admin/ManageProductsPage'
 import ProductFormPage from './pages/admin/ProductFormPage'
