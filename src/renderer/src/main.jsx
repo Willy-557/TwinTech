@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter, createBrowserRouter, RouterProvider } from 'react-router'
-import AuthProvider from './context/AuthContext.jsx'
+import AuthProvider, { ProtectedRoute }  from './context/AuthContext.jsx'
 import App from './App'
 import LoginPage from './pages/auth/LoginPage'
 import RegisterPage from './pages/auth/RegisterPage'
@@ -17,11 +17,10 @@ import ShopPage from './pages/user/ShopPage'
 import AddAddressPage from './pages/user/AddAddressPage'
 import './styles/global.css'
 
-
 const router = createBrowserRouter([
   {path: '/login', element:<LoginPage/>},
   {path: '/register', element:<RegisterPage/>},
-  {path: '/', element:<App/>, children: [
+  {path: '/', element:<ProtectedRoute element={<App />}></ProtectedRoute>, children: [
     {path:'manageorder', element:<ManageOrdersPage/>},
     {path:'manageproduct', element:<ManageProductsPage/>},
     {path:'productform', element:<ProductFormPage/>},
@@ -38,9 +37,7 @@ const router = createBrowserRouter([
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <AuthProvider>
-        <BrowserRouter>
-          <App />
-        </BrowserRouter>
+        <RouterProvider router={router}></RouterProvider>
     </AuthProvider>
   </StrictMode>
 )

@@ -91,6 +91,16 @@ export default function AuthProvider({children}){
     }
 
     return <AuthContext.Provider value={auth}>
-            {children}
-        </AuthContext.Provider>
+        {children}
+    </AuthContext.Provider>
+}
+
+export function ProtectedRoute({ element }) {
+    const { user } = useContext(AuthContext);
+    if (user) {
+        return element;
+    }
+    else {
+        return <Navigate to="/login" />
+    }
 }
