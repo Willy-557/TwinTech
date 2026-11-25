@@ -61,7 +61,7 @@
       "deskripsi": "UGREEN CABLE TYPE-C TO TYPE-C NYLON 100W 1 METER US557 / 15271 adalah kabel original untuk kebutuhan harian, kerja, perjalanan, dan perlengkapan digital."
     },
     {
-      "kode": "50150",
+      "kode": "50150, 25057",
       "nama": "UGREEN CABLE TYPE-C TO TYPE-C NYLON 60W 1M",
       "kategori": "Kabel Data & Charger",
       "harga": 59000,
@@ -84,42 +84,18 @@
           "kode": "50150",
           "warna": "Black",
           "stok": 3
-        }
-      ],
-      "images": "Assets/Produk/Ugreen/50150.jpeg",
-      "deskripsi": "UGREEN CABLE TYPE-C TO TYPE-C NYLON 60W 1M 50150 adalah kabel original untuk kebutuhan harian, kerja, perjalanan, dan perlengkapan digital."
-    },
-    {
-      "kode": "25057",
-      "nama": "UGREEN CABLE TYPE-C TO TYPE-C NYLON 60W 1M",
-      "kategori": "Kabel Data & Charger",
-      "harga": 59000,
-      "fitur": [
-        {
-          "judul": "Panjang",
-          "nilai": "1M"
         },
-        {
-          "judul": "Kecepatan Transfer",
-          "nilai": "Up to 480 Mbps"
-        },
-        {
-          "judul": "Charging",
-          "nilai": "Fast Charging 60w"
-        }
-      ],
-      "varian": [
         {
           "kode": "25057",
           "warna": "White",
           "stok": 2
         }
       ],
-      "images": "Assets/Produk/Ugreen/25057.jpeg",
-      "deskripsi": "UGREEN CABLE TYPE-C TO TYPE-C NYLON 60W 1M 25057 adalah kabel original untuk kebutuhan harian, kerja, perjalanan, dan perlengkapan digital."
+      "images": "Assets/Produk/Ugreen/50150.jpeg, Assets/Produk/Ugreen/25057.jpeg",
+      "deskripsi": "UGREEN CABLE TYPE-C TO TYPE-C NYLON 60W 1M 50150 / 25057 adalah kabel original untuk kebutuhan harian, kerja, perjalanan, dan perlengkapan digital."
     },
     {
-      "kode": "RC-124A-BK",
+      "kode": "RC-124A",
       "nama": "REMAX CABLE TYPE-C JANY ALUMINUM 1M",
       "kategori": "Kabel Data & Charger",
       "harga": 44100,
@@ -139,41 +115,17 @@
       ],
       "varian": [
         {
-          "kode": "RC-124A-BK",
+          "kode": "RC-124A",
           "warna": "Black",
           "stok": 1
-        }
-      ],
-      "images": "Assets/Produk/Remax/RC-124A-Black.jpeg",
-      "deskripsi": "REMAX CABLE TYPE-C JANY ALUMINUM 1M RC-12.4A adalah kabel original untuk kebutuhan harian, kerja, perjalanan, dan perlengkapan digital."
-    },
-    {
-      "kode": "RC-124A-SV",
-      "nama": "REMAX CABLE TYPE-C JANY ALUMINUM 1M",
-      "kategori": "Kabel Data & Charger",
-      "harga": 44100,
-      "fitur": [
-        {
-          "judul": "Panjang",
-          "nilai": "1M"
         },
         {
-          "judul": "Kecepatan Transfer",
-          "nilai": "Up to 480 Mbps"
-        },
-        {
-          "judul": "Charging",
-          "nilai": "Fast Charging 12w"
-        }
-      ],
-      "varian": [
-        {
-          "kode": "RC-124A-SV",
+          "kode": "RC-124A",
           "warna": "Silver",
           "stok": 4
         }
       ],
-      "images": "Assets/Produk/Remax/RC-124A-Silver.jpeg",
+      "images": "Assets/Produk/Remax/RC-124A-Black.jpeg, Assets/Produk/Remax/RC-124A-Silver.jpeg",
       "deskripsi": "REMAX CABLE TYPE-C JANY ALUMINUM 1M RC-12.4A adalah kabel original untuk kebutuhan harian, kerja, perjalanan, dan perlengkapan digital."
     },
     {
@@ -380,7 +332,7 @@
       "deskripsi": "UGREEN CABLE UNO TYPE-C TO TYPE-C NYLON 100W L509 BLACK / 35501 adalah kabel original untuk kebutuhan harian, kerja, perjalanan, dan perlengkapan digital."
     },
     {
-      "kode": "90550",
+      "kode": "90550, 90671, 90686",
       "nama": "UGREEN MOUSE WIRELESS 24G MU105",
       "kategori": "Mouse",
       "harga": 119000,
@@ -403,68 +355,20 @@
           "kode": "90550",
           "warna": "Midnight Blue",
           "stok": 2
-        }
-      ],
-      "images": "Assets/Produk/Ugreen/90550.jpeg",
-      "deskripsi": "UGREEN MOUSE WIRELESS 24G MU105 / 90550 adalah mouse original untuk kebutuhan harian, kerja, perjalanan, dan perlengkapan digital."
-    },
-    {
-      "kode": "90671",
-      "nama": "UGREEN MOUSE WIRELESS 24G MU105",
-      "kategori": "Mouse",
-      "harga": 119000,
-      "fitur": [
-        {
-          "judul": "Koneksi",
-          "nilai": "Wireless 2.4GHz (USB Receiver)"
         },
-        {
-          "judul": "DPI",
-          "nilai": "Up to 2400 DPI"
-        },
-        {
-          "judul": "Fitur",
-          "nilai": "Silent Click"
-        }
-      ],
-      "varian": [
         {
           "kode": "90671",
           "warna": "Dusty Blue",
           "stok": 2
-        }
-      ],
-      "images": "Assets/Produk/Ugreen/90671.jpeg",
-      "deskripsi": "UGREEN MOUSE WIRELESS 24G MU105 / 90671 adalah mouse original untuk kebutuhan harian, kerja, perjalanan, dan perlengkapan digital."
-    },
-    {
-      "kode": "90686",
-      "nama": "UGREEN MOUSE WIRELESS 24G MU105",
-      "kategori": "Mouse",
-      "harga": 119000,
-      "fitur": [
-        {
-          "judul": "Koneksi",
-          "nilai": "Wireless 2.4GHz (USB Receiver)"
         },
-        {
-          "judul": "DPI",
-          "nilai": "Up to 2400 DPI"
-        },
-        {
-          "judul": "Fitur",
-          "nilai": "Silent Click"
-        }
-      ],
-      "varian": [
         {
           "kode": "90686",
           "warna": "Cherry Pink",
           "stok": 2
         }
       ],
-      "images": "Assets/Produk/Ugreen/90686.jpeg",
-      "deskripsi": "UGREEN MOUSE WIRELESS 24G MU105 / 90686 adalah mouse original untuk kebutuhan harian, kerja, perjalanan, dan perlengkapan digital."
+      "images": "Assets/Produk/Ugreen/90550.jpeg, Assets/Produk/Ugreen/90671.jpeg, Assets/Produk/Ugreen/90686.jpeg",
+      "deskripsi": "UGREEN MOUSE WIRELESS 24G MU105 / 90550 / 90671 / 90686 adalah mouse original untuk kebutuhan harian, kerja, perjalanan, dan perlengkapan digital."
     },
     {
       "kode": "70429",

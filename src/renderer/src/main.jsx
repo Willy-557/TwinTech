@@ -1,9 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { createBrowserRouter, RouterProvider } from 'react-router'
+import { BrowserRouter, createBrowserRouter, RouterProvider } from 'react-router'
+import AuthProvider, { ProtectedRoute }  from './context/AuthContext.jsx'
 import App from './App'
 import LoginPage from './pages/auth/LoginPage'
-import RegisterPage from './pages/auth/RegisterPagePage'
+import RegisterPage from './pages/auth/RegisterPage'
 import ManageOrdersPage from './pages/admin/ManageOrdersPage'
 import ManageProductsPage from './pages/admin/ManageProductsPage'
 import ProductFormPage from './pages/admin/ProductFormPage'
@@ -14,11 +15,12 @@ import OrdersPage from './pages/user/OrdersPage'
 import ProductDetailPage from './pages/user/ProductDetailPage'
 import ShopPage from './pages/user/ShopPage'
 import AddAddressPage from './pages/user/AddAddressPage'
+import './styles/global.css'
 
 const router = createBrowserRouter([
   {path: '/login', element:<LoginPage/>},
   {path: '/register', element:<RegisterPage/>},
-  {path: '/', element:<App/>, children: [
+  {path: '/', element:<ProtectedRoute element={<App />}></ProtectedRoute>, children: [
     {path:'manageorder', element:<ManageOrdersPage/>},
     {path:'manageproduct', element:<ManageProductsPage/>},
     {path:'productform', element:<ProductFormPage/>},
@@ -34,6 +36,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router}></RouterProvider>
+    <AuthProvider>
+        <RouterProvider router={router}></RouterProvider>
+    </AuthProvider>
   </StrictMode>
 )
